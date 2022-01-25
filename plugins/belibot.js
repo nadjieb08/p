@@ -17,13 +17,13 @@ let handler = async (m, { conn, text }) => {
 6.30k = Jadi Owner Bot Ampe Mati *(VIP Berlaku Ampe Mati)*
 
 `.trim()
-await conn.sendButtonLoc(m.chat, await (await fetch(`https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Donasi`)).buffer(), ext.trim(), 'HanzzBotz By Hanzz-kun', '🙋‍♂️ NOMER OWNER', '.owner',m)
+await conn.sendButtonLoc(m.chat, await (await fetch(`https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Beli Bot`)).buffer(), ext.trim(), 'SixxTenzz Ganteng', '🙋‍♂️ NOMER OWNER', '.owner',m)
     
 
 }
-handler.help = ['donasi']
+handler.help = ['sewabot']
 handler.tags = ['info']
-handler.command = /^donasi/i
+handler.command = /^sewabot/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
