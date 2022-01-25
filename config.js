@@ -12,14 +12,14 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = ''
-gc2 = ''
-gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL', ''] // ganti jadi group lu
-global.owner = ['6288279268363'] // Put your number here //owner eval
-global.kontak = ['6288279268363','0'] //Ketika ada yang ngetik #owner
+gc1 = 'http://bit.ly/3nQfIQ8'
+gc2 = 'http://bit.ly/3nQfIQ8'
+gc3 = 'http://bit.ly/3nQfIQ8'
+global.linkGC = ['http://bit.ly/3nQfIQ8', ''] // ganti jadi group lu
+global.owner = ['6281244706456', '6285742344873'] // Put your number here //owner eval
+global.kontak = ['6281244706456', '6285742344873', '0'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['6288279268363'] // Premium user has unlimited limit
+global.prems = ['6281244706456', '6285742344873'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -48,31 +48,31 @@ global.APIKeys = { // APIKey Here
 lolkey = 'RFK-Rey'
 zekskey = 'apivinz'
 xteamkey = 'KingOfBear'
-bearkey = 'KingOfBear'
+bearkey = 'SixxTenzz'
 //xteam        MIMINETBOT
-namaig = 'https://instagram.com/drak_ipul123'
-namagithub = 'GAK ADA :)'
-kasihcaption = `Nih kak`
-namakontak1 = 'King Of Bear'
-namakontak2 = 'King Of Bear'
+namaig = 'Sheyan123'
+namagithub = 'github.com/JulianKastaraaaa09'
+kasihcaption = `Done Kak!!!`
+namakontak1 = 'SixxTenz Ganz'
+namakontak2 = 'Kimiko Ganz'
 
-//kasihcaption = `Nih Kak`
+//kasihcaption = `Done Kak!!!`
 
 // Sticker WM
-global.packname = 'By King Of Bear' // ganti aja
-global.author = 'King Of Bear' // ganti aja
+global.packname = 'SixxTenz Ganzz' // ganti aja
+global.author = 'SixxTenzz Ganzz' // ganti aja
 
 //yyy
-bc = 'King Of Bear' //King Of Bear Broadcast
-footer = '\n©King Of Bear'
-namabot = 'YUKI BOT'
-namalu = 'King Of Bear'
+bc = 'SixxTenzzあ' //King Of Bear Broadcast
+footer = '\n© SixxTenzz'
+namabot = 'Luxury Bot'
+namalu = 'SixxTenzz'
 
 
 // 
 wait = '_*Tunggu Sebentar...*_'
-global.wait = '_*Tunggu Sebentar...*_'
-global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
+global.wait = '_*Loading Dulu...*_'
+global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Server Error*_'
 
