@@ -1,22 +1,31 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => {
-	conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Bulan* :      *Rp 20.000,00*
-╠➥ *Permanen* : *Rp 30.000,00*
-╠➥ *Premium* :   *Rp 15.000,00*
-╠➥ *Sc Bot* :        *https://www.youtube.com/watch?v=d7dcw2CO4ew*
-║
-╠═〘 PEMBAYARAN 〙 ═
-╠➥ Gopay, Dana, Dan Pulsa
-║
-╠═ Tertarik Untuk Beli Bot Ini?
-╠➥Ketuk Tombol Di Bawah Ya
-║
-╠═ ©2022 King Of Bear
-╠═ Scrip original by Nurutomo
-╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'OVO', '#viaovo', 'Pulsa', '#viapulsa', m)
-}
+let handler = async (m, { conn, text }) => {
+	await m.reply(' _*Donasi Nya Banh...*_ ')
+  let ext= `
+*DONASI*
 
-handler.command = /^sewa(bot)?$/i
+*TSEL* : 085742344873
+*GOPAY* : 085742344873
+*DANA* : 085742344873
+*SAWERIA* : saweria.co/JulianKastara
+
+`.trim()
+await conn.sendButtonLoc(m.chat, await (await fetch(`https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Donasi`)).buffer(), ext.trim(), 'HanzzBotz By Hanzz-kun', '🙋‍♂️ NOMER OWNER', '.owner',m)
+    
+
+}
+handler.help = ['donasi']
+handler.tags = ['info']
+handler.command = /^donasi/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
 
 module.exports = handler
