@@ -16,10 +16,10 @@ gc1 = 'http://bit.ly/3nQfIQ8'
 gc2 = 'http://bit.ly/3nQfIQ8'
 gc3 = 'http://bit.ly/3nQfIQ8'
 global.linkGC = ['http://bit.ly/3nQfIQ8', ''] // ganti jadi group lu
-global.owner = ['6282234343854', '6285742344873'] // Put your number here //owner eval
-global.kontak = ['6282234343854', '6282234343854', '0'] //Ketika ada yang ngetik #owner
+global.owner = ['6283155957017', '6285742344873'] // Put your number here //owner eval
+global.kontak = ['6283155957017', '6282234343854', '0'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['6282234343854', '6282234343854', '6282234343854'] // Premium user has unlimited limit
+global.prems = ['6282234343854', '6283155957017', '6282234343854'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
